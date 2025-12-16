@@ -104,3 +104,20 @@ def compute_coherence_score(topics, texts, dictionary=None, coherence='c_v'):
         coherence=coherence
     )
     return coherence_model.get_coherence()
+
+def compute_coherence_per_topic(topics, texts, dictionary=None, coherence='c_v'):
+    """
+    Returns coherence score for EACH topic.
+    """
+    if dictionary is None:
+        dictionary = Dictionary(texts)
+    
+    coherence_model = CoherenceModel(
+        topics=topics, 
+        texts=texts, 
+        dictionary=dictionary, 
+        coherence=coherence
+    )
+    # get_coherence_per_topic() returns list of scores
+    return coherence_model.get_coherence_per_topic()
+

@@ -1,0 +1,209 @@
+=== QUALITATIVE TOPIC SUMMARY ===
+
+Model: Baseline-LSA
+  Topic 1: jakarta, berita, sini, baca, sedikit, iklan, klik, prabowo, indonesia, tersebut
+  Topic 2: korban, pelaku, polisi, metro, tersangka, rumah, polda, jaya, jalan, polres
+  Topic 3: partai, jakarta, pilkada, pramono, calon, gubernur, pdi, prabowo, ridwan, kamil
+  Topic 4: kpk, korupsi, tersangka, rp, kasus, pasal, undang, pt, pidana, hasto
+  Topic 5: prabowo, presiden, korban, tni, israel, menteri, negara, jokowi, pelaku, subianto
+
+Model: Baseline-LDA
+  Topic 1: jakarta, presiden, prabowo, partai, kata, ketua, dpr, menteri, wakil, daerah
+  Topic 2: kasus, kpk, hukum, tersangka, tersebut, rp, korupsi, pasal, jakarta, pt
+  Topic 3: berita, sini, sedikit, baca, klik, iklan, tni, menjadi, anak, masyarakat
+  Topic 4: jakarta, korban, tersebut, warga, jalan, com, kompas, kata, rumah, kota
+  Topic 5: indonesia, berita, sini, sedikit, baca, klik, iklan, menjadi, negara, rp
+
+Model: Baseline-NMF
+  Topic 1: berita, klik, baca, iklan, sedikit, sini, indonesia, menjadi, bawah, persen
+  Topic 2: korban, pelaku, polisi, metro, jalan, rumah, warga, jakarta, tersebut, mobil
+  Topic 3: jakarta, pramono, pilkada, gubernur, calon, partai, ridwan, rano, kamil, pasangan
+  Topic 4: kpk, korupsi, tersangka, rp, kasus, pt, pasal, undang, pidana, uang
+  Topic 5: prabowo, presiden, menteri, tni, jokowi, negara, indonesia, dpr, partai, subianto
+
+Model: Baseline-BERTopic
+  Topic 1: jakarta, tersebut, kata, sini, indonesia, berita, sedikit, baca, iklan, klik
+  Topic 2: liga, gol, pertandingan, pemain, laga, vs, united, tim, sedikit, sini
+  Topic 3: nobel, machado, perdamaian, venezuela, hadiah, komite, penghargaan, yaghi, trump, krasznahorkai
+  Topic 4: museum, louvre, prancis, perhiasan, pengunjung, pencurian, ratu, perampokan, lukisan, dicuri
+
+Model: Tuned-LSA-3
+  Topic 1: jakarta, berita, sini, baca, sedikit, iklan, klik, prabowo, indonesia, tersebut
+  Topic 2: korban, pelaku, polisi, metro, tersangka, rumah, polda, jaya, jalan, polres
+  Topic 3: partai, jakarta, pilkada, pramono, calon, gubernur, pdi, ridwan, prabowo, kamil
+
+Model: Tuned-LDA-3
+  Topic 1: jakarta, presiden, prabowo, kata, indonesia, menteri, partai, menjadi, negara, pemerintah
+  Topic 2: jakarta, tersebut, korban, kata, com, kasus, kompas, rp, kpk, jalan
+  Topic 3: berita, sini, sedikit, baca, klik, iklan, indonesia, menjadi, lebih, tersebut
+
+Model: Tuned-NMF-3
+  Topic 1: berita, baca, klik, iklan, sedikit, sini, indonesia, rp, menjadi, tahun
+  Topic 2: korban, pelaku, polisi, metro, jakarta, tersangka, rumah, jalan, tersebut, kasus
+  Topic 3: prabowo, partai, jakarta, presiden, pilkada, calon, gubernur, ketua, dpr, pramono
+
+Model: Tuned-LSA-6
+  Topic 1: jakarta, berita, sini, baca, sedikit, iklan, klik, prabowo, indonesia, tersebut
+  Topic 2: korban, pelaku, polisi, metro, tersangka, rumah, polda, jaya, jalan, polres
+  Topic 3: partai, jakarta, pilkada, pramono, calon, gubernur, pdi, ridwan, prabowo, kamil
+  Topic 4: kpk, korupsi, tersangka, rp, kasus, pasal, undang, pt, pidana, hasto
+  Topic 5: prabowo, presiden, korban, tni, israel, menteri, negara, jokowi, pelaku, subianto
+  Topic 6: sekolah, program, rp, mbg, pemerintah, anggaran, anak, gratis, prabowo, siswa
+
+Model: Tuned-LDA-6
+  Topic 1: jakarta, presiden, prabowo, partai, ketua, dpr, kata, menteri, wakil, ri
+  Topic 2: kpk, kasus, rp, tersangka, hukum, korupsi, tersebut, pasal, pt, jakarta
+  Topic 3: berita, sini, baca, tni, sedikit, klik, iklan, tersebut, orang, menjadi
+  Topic 4: jakarta, korban, tersebut, warga, jalan, com, kompas, rumah, kata, pelaku
+  Topic 5: berita, baca, sedikit, klik, sini, iklan, indonesia, negara, persen, bawah
+  Topic 6: program, masyarakat, menjadi, pemerintah, lebih, indonesia, sekolah, anak, jakarta, kata
+
+Model: Tuned-NMF-6
+  Topic 1: program, sekolah, anak, rp, pemerintah, mbg, masyarakat, pendidikan, anggaran, daerah
+  Topic 2: korban, pelaku, polisi, metro, rumah, jalan, warga, jakarta, mobil, kebakaran
+  Topic 3: jakarta, pilkada, pramono, gubernur, calon, partai, ridwan, rano, kamil, pasangan
+  Topic 4: kpk, korupsi, tersangka, kasus, rp, pt, pasal, undang, pidana, hakim
+  Topic 5: prabowo, presiden, menteri, jokowi, tni, partai, negara, indonesia, dpr, subianto
+  Topic 6: berita, klik, baca, iklan, sedikit, sini, israel, indonesia, bawah, pilihan
+
+Model: Tuned-LSA-9
+  Topic 1: jakarta, berita, sini, baca, sedikit, iklan, klik, prabowo, indonesia, tersebut
+  Topic 2: korban, pelaku, polisi, metro, tersangka, rumah, polda, jaya, jalan, polres
+  Topic 3: partai, jakarta, pilkada, pramono, calon, gubernur, pdi, ridwan, prabowo, kamil
+  Topic 4: kpk, korupsi, tersangka, rp, kasus, pasal, undang, pt, pidana, hasto
+  Topic 5: prabowo, presiden, korban, tni, israel, menteri, negara, jokowi, pelaku, subianto
+  Topic 6: program, sekolah, rp, mbg, pemerintah, anggaran, anak, gratis, prabowo, makan
+  Topic 7: kpk, israel, haji, gaza, palestina, kebakaran, jalan, warga, puasa, korupsi
+  Topic 8: israel, gaza, palestina, tni, undang, serangan, hamas, mk, militer, iran
+  Topic 9: tni, dpr, haji, undang, puasa, jalan, ruu, uu, polri, mk
+
+Model: Tuned-LDA-9
+  Topic 1: jakarta, partai, presiden, prabowo, ketua, dpr, kata, wakil, gubernur, calon
+  Topic 2: kpk, korupsi, kasus, rp, pt, tersangka, jakarta, pasal, tersebut, hukum
+  Topic 3: tni, polri, tersebut, hukum, kata, masyarakat, berita, sini, baca, sedikit
+  Topic 4: korban, tersebut, pelaku, jakarta, orang, rumah, polisi, kata, israel, metro
+  Topic 5: negara, indonesia, rp, berita, sedikit, sini, baca, klik, iklan, menteri
+  Topic 6: anak, sekolah, program, kesehatan, pendidikan, kata, lebih, makan, jakarta, mbg
+  Topic 7: menjadi, indonesia, sini, berita, sedikit, baca, iklan, klik, lebih, masyarakat
+  Topic 8: berita, baca, sedikit, klik, iklan, sini, indonesia, pilihan, bawah, editor
+  Topic 9: jakarta, jalan, kota, warga, com, kompas, tersebut, hari, hingga, kata
+
+Model: Tuned-NMF-9
+  Topic 1: program, sekolah, anak, mbg, rp, pemerintah, pendidikan, masyarakat, anggaran, gratis
+  Topic 2: korban, pelaku, polisi, metro, rumah, jalan, jakarta, warga, mobil, kebakaran
+  Topic 3: jakarta, pramono, pilkada, gubernur, calon, partai, ridwan, rano, kamil, pasangan
+  Topic 4: kpk, korupsi, tersangka, rp, kasus, pt, uang, pidana, hasto, perkara
+  Topic 5: prabowo, presiden, jokowi, menteri, partai, subianto, indonesia, negara, gibran, kabinet
+  Topic 6: berita, klik, iklan, baca, sedikit, sini, indonesia, bawah, pilihan, membaca
+  Topic 7: haji, jemaah, puasa, kuota, ibadah, agama, ramadhan, saudi, umrah, arab
+  Topic 8: israel, gaza, palestina, serangan, hamas, trump, iran, negara, senjata, as
+  Topic 9: tni, dpr, undang, mk, uu, ruu, ri, pasal, putusan, hukum
+
+Model: Tuned-LSA-12
+  Topic 1: jakarta, berita, sini, baca, sedikit, iklan, klik, prabowo, indonesia, tersebut
+  Topic 2: korban, pelaku, polisi, metro, tersangka, rumah, polda, jaya, jalan, polres
+  Topic 3: partai, jakarta, pilkada, pramono, calon, gubernur, pdi, ridwan, prabowo, kamil
+  Topic 4: kpk, korupsi, tersangka, rp, pasal, kasus, undang, pt, pidana, hasto
+  Topic 5: prabowo, presiden, korban, tni, israel, menteri, negara, jokowi, pelaku, subianto
+  Topic 6: program, sekolah, rp, mbg, pemerintah, anggaran, anak, gratis, prabowo, makan
+  Topic 7: kpk, israel, haji, gaza, palestina, jalan, warga, banjir, korupsi, kebakaran
+  Topic 8: israel, gaza, palestina, tni, undang, serangan, mk, hamas, pasal, militer
+  Topic 9: tni, haji, dpr, undang, puasa, ruu, mk, uu, jemaah, revisi
+  Topic 10: haji, sekolah, anak, kpk, mbg, siswa, israel, jemaah, program, puasa
+  Topic 11: haji, rp, jemaah, korban, pelaku, persen, kuota, triliun, ibadah, agama
+  Topic 12: puasa, ramadhan, pramono, tni, indonesia, berbuka, pemain, jadwal, jakarta, ibadah
+
+Model: Tuned-LDA-12
+  Topic 1: jakarta, partai, calon, gubernur, pilkada, daerah, ketua, pramono, wakil, nomor
+  Topic 2: kpk, korupsi, kasus, pt, tersangka, jakarta, rp, pasal, hukum, hakim
+  Topic 3: tni, polri, hukum, tersebut, masyarakat, kata, berita, sini, aksi, baca
+  Topic 4: negara, indonesia, israel, haji, tersebut, presiden, gaza, mengatakan, palestina, menteri
+  Topic 5: rp, persen, berita, sedikit, pemerintah, baca, sini, iklan, klik, tahun
+  Topic 6: sekolah, anak, program, kesehatan, pendidikan, mbg, makan, gratis, siswa, makanan
+  Topic 7: menjadi, indonesia, sini, berita, sedikit, baca, iklan, klik, lebih, masyarakat
+  Topic 8: berita, baca, klik, sedikit, iklan, sini, indonesia, pilihan, bawah, editor
+  Topic 9: jakarta, jalan, hari, hingga, pukul, kendaraan, wib, wilayah, penumpang, lalu
+  Topic 10: prabowo, presiden, dpr, ri, ketua, menteri, jakarta, kata, jokowi, indonesia
+  Topic 11: korban, tersebut, pelaku, jakarta, polisi, rumah, metro, orang, kata, satu
+  Topic 12: jakarta, warga, kota, com, kompas, jalan, kalau, tersebut, kata, air
+
+Model: Tuned-NMF-12
+  Topic 1: berita, klik, iklan, baca, sedikit, sini, persen, rp, indonesia, bawah
+  Topic 2: korban, pelaku, polisi, metro, polda, jaya, polres, tersangka, berinisial, rumah
+  Topic 3: pramono, jakarta, pilkada, gubernur, calon, partai, ridwan, rano, kamil, pasangan
+  Topic 4: kpk, korupsi, tersangka, kasus, rp, pt, hasto, uang, pidana, hakim
+  Topic 5: prabowo, presiden, menteri, jokowi, partai, subianto, indonesia, negara, kabinet, gibran
+  Topic 6: pemain, pertandingan, laga, gol, timnas, piala, tim, liga, indonesia, vs
+  Topic 7: jalan, kebakaran, jakarta, warga, banjir, air, kota, wib, lokasi, api
+  Topic 8: israel, gaza, palestina, serangan, hamas, trump, iran, senjata, negara, as
+  Topic 9: tni, dpr, undang, mk, uu, ruu, ri, pasal, putusan, anggota
+  Topic 10: sekolah, anak, program, mbg, siswa, gratis, pendidikan, makan, bergizi, gizi
+  Topic 11: haji, jemaah, kuota, agama, saudi, ibadah, umrah, arab, kemenag, nasaruddin
+  Topic 12: puasa, ramadhan, berbuka, ibadah, jadwal, islam, niat, imsak, sahur, buka
+
+Model: Tuned-LSA-15
+  Topic 1: jakarta, berita, sini, baca, sedikit, iklan, klik, prabowo, indonesia, tersebut
+  Topic 2: korban, pelaku, polisi, metro, tersangka, rumah, polda, jaya, jalan, polres
+  Topic 3: partai, jakarta, pilkada, pramono, calon, gubernur, pdi, ridwan, prabowo, kamil
+  Topic 4: kpk, korupsi, tersangka, rp, pasal, kasus, undang, pt, pidana, hasto
+  Topic 5: prabowo, presiden, korban, tni, israel, menteri, negara, jokowi, pelaku, subianto
+  Topic 6: program, sekolah, rp, mbg, pemerintah, anggaran, anak, gratis, prabowo, makan
+  Topic 7: kpk, israel, haji, gaza, palestina, jalan, kebakaran, warga, korupsi, jemaah
+  Topic 8: israel, gaza, palestina, tni, undang, serangan, hamas, mk, militer, iran
+  Topic 9: tni, haji, dpr, undang, puasa, jemaah, mk, ruu, uu, ibadah
+  Topic 10: haji, sekolah, anak, kpk, mbg, israel, siswa, program, pendidikan, jemaah
+  Topic 11: haji, rp, jemaah, korban, pelaku, persen, kuota, puasa, ibadah, triliun
+  Topic 12: puasa, tni, pramono, ramadhan, jakarta, indonesia, rano, pemain, prabowo, timnas
+  Topic 13: puasa, ramadhan, berbuka, jadwal, kota, partai, islam, niat, ibadah, imsak
+  Topic 14: tni, kpk, polda, metro, jaya, berita, iklan, klik, baca, haji
+  Topic 15: tni, rp, mbg, korban, triliun, anggaran, bergizi, makan, kebakaran, keracunan
+
+Model: Tuned-LDA-15
+  Topic 1: jakarta, gubernur, partai, calon, pilkada, daerah, pramono, ketua, wakil, suara
+  Topic 2: kpk, korupsi, kasus, tersangka, pt, pasal, jakarta, rp, hakim, pidana
+  Topic 3: tni, polri, masyarakat, menjadi, kata, hukum, tersebut, jenderal, negara, kepala
+  Topic 4: menteri, indonesia, negara, presiden, prabowo, haji, kementerian, pemerintah, kata, jakarta
+  Topic 5: rp, persen, berita, sedikit, baca, sini, iklan, klik, tahun, pemerintah
+  Topic 6: sekolah, anak, program, kesehatan, makan, mbg, gratis, pendidikan, siswa, makanan
+  Topic 7: sedikit, berita, klik, iklan, baca, sini, menjadi, lebih, masyarakat, indonesia
+  Topic 8: sedikit, berita, klik, baca, iklan, sini, indonesia, tim, pemain, bawah
+  Topic 9: jakarta, jalan, pukul, hingga, wib, kendaraan, hari, wilayah, penumpang, lalu
+  Topic 10: dpr, presiden, prabowo, ketua, ri, partai, jokowi, kata, undang, anggota
+  Topic 11: korban, pelaku, tersebut, polisi, jakarta, metro, rumah, kata, orang, mobil
+  Topic 12: jakarta, warga, kota, com, kompas, jalan, kalau, tersebut, air, kata
+  Topic 13: indonesia, menjadi, tahun, acara, juga, jakarta, film, sini, dunia, bersama
+  Topic 14: berita, israel, baca, sini, klik, iklan, sedikit, tersebut, negara, gaza
+  Topic 15: korban, jakarta, tersebut, kebakaran, aksi, kasus, pihak, kata, hukum, polri
+
+Model: Tuned-NMF-15
+  Topic 1: berita, klik, baca, iklan, sedikit, sini, bawah, membaca, melanjutkan, scroll
+  Topic 2: korban, pelaku, metro, polisi, polda, jaya, polres, tersangka, berinisial, rumah
+  Topic 3: partai, golkar, pdi, ketua, politik, megawati, umum, kader, dpp, hasto
+  Topic 4: kpk, korupsi, tersangka, kasus, hasto, penyidik, perkara, dugaan, pemberantasan, penyidikan
+  Topic 5: prabowo, presiden, menteri, jokowi, indonesia, subianto, negara, kabinet, gibran, istana
+  Topic 6: pemain, pertandingan, laga, gol, timnas, piala, liga, tim, indonesia, vs
+  Topic 7: jalan, kebakaran, warga, jakarta, banjir, air, kota, wib, api, lokasi
+  Topic 8: israel, gaza, palestina, serangan, hamas, trump, iran, senjata, negara, as
+  Topic 9: tni, prajurit, panglima, angkatan, polri, militer, pertahanan, jenderal, laut, tentara
+  Topic 10: sekolah, anak, program, mbg, siswa, pendidikan, gratis, makan, bergizi, gizi
+  Topic 11: haji, jemaah, kuota, agama, saudi, ibadah, umrah, arab, kemenag, nasaruddin
+  Topic 12: pramono, jakarta, gubernur, rano, pilkada, ridwan, calon, kamil, pasangan, urut
+  Topic 13: puasa, ramadhan, berbuka, ibadah, jadwal, islam, niat, imsak, sahur, buka
+  Topic 14: undang, dpr, mk, pasal, uu, putusan, ruu, hukum, ri, nomor
+  Topic 15: rp, triliun, pt, persen, sebesar, miliar, juta, anggaran, uang, bank
+
+Model: Tuned-BERTopic-15
+  Topic 1: jakarta, tersebut, kata, indonesia, sini, menjadi, berita, sedikit, baca, iklan
+  Topic 2: israel, gaza, serangan, palestina, iran, hamas, senjata, lebanon, gencatan, tersebut
+  Topic 3: liga, gol, pertandingan, pemain, laga, vs, manchester, united, liverpool, menit
+  Topic 4: kesehatan, darah, tubuh, penyakit, lebih, vitamin, virus, sedikit, baca, makanan
+  Topic 5: dna, teridentifikasi, jenazah, tes, lisa, alamat, mariana, rs, polri, surabaya
+  Topic 6: perundungan, bullying, unud, undip, ppds, sekolah, korban, pendidikan, kasus, timothy
+  Topic 7: mall, skateboard, bermain, skatepark, mal, fo, skater, adam, slipi, pengunjung
+  Topic 8: mangrove, tambak, brgm, ekosistem, hutan, penanaman, lingkungan, gambut, rehabilitasi, masyarakat
+  Topic 9: mlb, nu, pbnu, gus, pengurus, ulama, nahdlatul, yahya, salam, jakfar
+  Topic 10: taliban, pakistan, afghanistan, serangan, pasukan, bentrokan, kabul, tewas, nazdana, ttp
+  Topic 11: alzheimer, dewina, alfin, merawat, nadia, penyakit, caregiver, demensia, ibunya, otak
+  Topic 12: nobel, machado, perdamaian, venezuela, hadiah, komite, penghargaan, trump, krasznahorkai, yaghi
+  Topic 13: katulampa, bendung, air, siaga, ciliwung, andi, bogor, sentimeter, ketinggian, hujan
+  Topic 14: museum, louvre, prancis, perhiasan, ratu, perampokan, pencurian, pengunjung, lukisan, dicuri

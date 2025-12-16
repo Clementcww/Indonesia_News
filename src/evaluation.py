@@ -84,3 +84,60 @@ def plot_confusion_matrix(y_true, y_pred, title="Confusion Matrix", save_path=No
         plt.savefig(save_path)
     plt.close()
 
+def plot_coherence_per_topic(coherence_list, title="Coherence Score per Topic", save_path=None):
+    """
+    Plots a bar chart of coherence score for each topic.
+    """
+    topics = range(1, len(coherence_list) + 1)
+    
+    plt.figure(figsize=(12, 6))
+    sns.barplot(x=list(topics), y=coherence_list, palette='coolwarm')
+    plt.title(title)
+    plt.xlabel("Topic #")
+    plt.ylabel("Coherence Score ($C_v$)")
+    plt.axhline(y=np.mean(coherence_list), color='red', linestyle='--', label=f'Mean: {np.mean(coherence_list):.4f}')
+    plt.legend()
+    plt.tight_layout()
+    
+    if save_path:
+        plt.savefig(save_path)
+    else:
+        plt.show()
+    plt.close()
+
+from sklearn.metrics import classification_report
+
+def plot_class_f1_heatmap(y_true, y_pred, title="Class-wise F1 Scores (Top 20)", save_path=None):
+    """
+    Plots a heatmap/bar of F1 scores for the top 20 most frequent classes.
+    """
+    # Get top 20 labels
+    top_labels = pd.Series(y_true).value_counts().nlargest(20).index.tolist()
+    
+    # Compute report
+    report = classification_report(y_true, y_pred, output_dict=True, zero_division=0)
+    
+    # Extract f1-scores for top labels
+    f1_scores = {}
+    for label in top_labels:
+        if label in report:
+            f1_scores[label] = report[label]['f1-score']
+        else:
+            f1_scores[label] = 0.0
+            
+    # Convert to DF for plotting
+    df_f1 = pd.DataFrame(list(f1_scores.items()), columns=['Class', 'F1 Score'])
+    df_f1 = df_f1.sort_values('F1 Score', ascending=False)
+    
+    plt.figure(figsize=(10, 8))
+    sns.barplot(x='F1 Score', y='Class', data=df_f1, palette='viridis')
+    plt.title(title)
+    plt.xlim(0, 1)
+    plt.tight_layout()
+    
+    if save_path:
+        plt.savefig(save_path)
+    else:
+        plt.show()
+    plt.close()
+
